@@ -1,0 +1,2 @@
+set datestyle = 'MDY';
+\copy datos_demandas from '~/coopecg/DataBase/demandas/csv/all_data/all_data.csv' with delimiter ',' csv header;

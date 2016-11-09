@@ -1,0 +1,450 @@
+{
+"Barras" : {
+	"variables" : [
+		{
+			"name": "DoubleTime",
+            "DB_column_name": "timestamp",
+			"adjust": "1"
+		},
+		{
+			"name": "V1",
+            "DB_column_name": "v1",
+			"adjust": "120"
+		},
+		{
+			"name": "V2",
+            "DB_column_name": "v2",
+			"adjust": "120"
+		},
+		{
+			"name": "V3",
+            "DB_column_name": "v3",
+			"adjust": "120"
+		},
+		{
+			"name": "V1 THD",
+            "DB_column_name": "v1_thd",
+			"adjust": "1"
+		},
+		{
+			"name": "V2 THD",
+            "DB_column_name": "v2_thd",
+			"adjust": "1"
+		},
+		{
+			"name": "V3 THD",
+            "DB_column_name": "v3_thd",
+			"adjust": "1"
+		},
+		{
+			"name": "V12",
+            "DB_column_name": "v12",
+			"adjust": "120"
+		},
+		{
+			"name": "V23",
+            "DB_column_name": "v23",
+			"adjust": "120"
+		},
+		{
+			"name": "V31",
+            "DB_column_name": "v31",
+			"adjust": "120"
+		},
+		{
+			"name": "I1 THD",
+            "DB_column_name": "i1_thd",
+			"adjust": "1"
+		},
+		{
+			"name": "I2 THD",
+            "DB_column_name": "i2_thd",
+			"adjust": "1"
+		},
+		{
+			"name": "I3 THD",
+            "DB_column_name": "i3_thd",
+			"adjust": "1"
+		},
+
+		{
+			"name": "vx_average",
+            "DB_column_name": "vx_average",
+			"adjust": "1"
+		},
+
+		{
+			"name": "unb_v1",
+            "DB_column_name": "unb_v1",
+			"adjust": "1"
+		},
+
+		{
+			"name": "unb_v2",
+            "DB_column_name": "unb_v2",
+			"adjust": "1"
+		},
+		{
+			"name": "unb_v3",
+            "DB_column_name": "unb_v3",
+			"adjust": "1"
+		},
+		{
+			"name": "max_unbx",
+            "DB_column_name": "max_unbx",
+			"adjust": "1"
+		},
+		{
+			"name": "vxx_average",
+            "DB_column_name": "vxx_average",
+			"adjust": "1"
+		},
+		{
+			"name": "unb_v12",
+            "DB_column_name": "unb_v12",
+			"adjust": "1"
+		},
+
+		{
+			"name": "unb_v23",
+            "DB_column_name": "unb_v23",
+			"adjust": "1"
+		},
+		{
+			"name": "unb_v31",
+            "DB_column_name": "unb_v31",
+			"adjust": "1"
+		},
+		{
+			"name": "max_unbxx",
+            "DB_column_name": "max_unbxx",
+			"adjust": "1"
+		}
+	],
+	"archivos" : [
+		{
+			"name": "Barra_A_Guayabal.mdb.Full.dlog1.csv",
+            "DB_column_name": "barra_a_guayabal"
+		},
+		{
+			"name": "Barra_B_Guayabal.mdb.FULL.dlog1.csv",
+            "DB_column_name": "barra_b_guayabal"
+		},
+		{
+			"name": "Barra_C_Guayabal.mdb.FULL.dlog1.csv",
+            "DB_column_name": "barra_c_guayabal"
+		}
+	]
+	
+	},
+"Variable_Database" : {
+    "source_path" : "/home/infografico/coopecg/DataBase/recierres/",
+    "xls_path" : "/home/usr/scada/recierres/",
+    "postgresql_connect" : "dbname=postgres host=172.16.1.101 port=5432 user=postgres password=infografico",
+    "logfile_path" : "/home/infografico/coopecg/logs/",
+    "processed_path" : "/home/infografico/coopecg/DataBase/recierres/xlsx/procesados/",
+    "control_path": "/home/infografico/coopecg/control/"
+    },
+
+
+"Medidores" : {	
+
+	"variables" : [
+
+		{
+			"name": "DoubleTime",
+            "DB_column_name": "timestamp",
+			"adjust": "1"
+		},
+		{
+			"name": "V1",
+            "DB_column_name": "v1",
+			"adjust": "1"
+		},
+		{
+			"name": "V2",
+            "DB_column_name": "v2",
+			"adjust": "1"
+		},
+		{
+			"name": "V3",
+            "DB_column_name": "v3",
+			"adjust": "1"
+		},
+		{
+			"name": "V1 THD",
+            "DB_column_name": "v1_thd",
+			"adjust": "1"
+		},
+		{
+			"name": "V2 THD",
+            "DB_column_name": "v2_thd",
+			"adjust": "1"
+		},
+		{
+			"name": "V3 THD",
+            "DB_column_name": "v3_thd",
+			"adjust": "1"
+		},
+		{
+			"name": "V12",
+            "DB_column_name": "v12",
+			"adjust": "1"
+		},
+		{
+			"name": "V23",
+            "DB_column_name": "v23",
+			"adjust": "1"
+		},
+		{
+			"name": "V31",
+            "DB_column_name": "v31",
+			"adjust": "1"
+		},
+		{
+			"name": "I1 THD",
+            "DB_column_name": "i1_thd",
+			"adjust": "1"
+		},
+		{
+			"name": "I2 THD",
+            "DB_column_name": "i2_thd",
+			"adjust": "1"
+		},
+		{
+			"name": "I3 THD",
+            "DB_column_name": "i3_thd",
+			"adjust": "1"
+		},
+		{
+			"name": "vx_average",
+            "DB_column_name": "vx_average",
+			"adjust": "1"
+		},
+
+		{
+			"name": "unb_v1",
+            "DB_column_name": "unb_v1",
+			"adjust": "1"
+		},
+
+		{
+			"name": "unb_v2",
+            "DB_column_name": "unb_v2",
+			"adjust": "1"
+		},
+		{
+			"name": "unb_v3",
+            "DB_column_name": "unb_v3",
+			"adjust": "1"
+		},
+		{
+			"name": "max_unbx",
+            "DB_column_name": "max_unbx",
+			"adjust": "1"
+		},
+		{
+			"name": "vxx_average",
+            "DB_column_name": "vxx_average",
+			"adjust": "1"
+		},
+		{
+			"name": "unb_v12",
+            "DB_column_name": "unb_v12",
+			"adjust": "1"
+		},
+
+		{
+			"name": "unb_v23",
+            "DB_column_name": "unb_v23",
+			"adjust": "1"
+		},
+		{
+			"name": "unb_v31",
+            "DB_column_name": "unb_v31",
+			"adjust": "1"
+		},
+		{
+			"name": "max_unbxx",
+            "DB_column_name": "max_unbxx",
+			"adjust": "1"
+		}
+	],
+
+	"archivos" : [
+		{
+			"name": "BK_Nicoya.mdb.FULL.dlog1.csv",
+            "DB_column_name": "bk_nicoya"
+		},
+		{
+			"name": "BNCR_Jicaral.mdb.FULL.dlog1.csv",
+            "DB_column_name": "bncr_jicaral"
+		},
+		{
+			"name": "Clinica_Filadelfia.mdb.FULL.dlog1.csv",
+            "DB_column_name": "clinica_filadelfia" 
+		},
+		{
+			"name": "Clinica_Hojancha.mdb.FULL.dlog1.csv",
+            "DB_column_name": "clinica_hojancha" 
+		},
+		{
+			"name": "Flamingo_Hotel.mdb.FULL.dlog1.csv",
+            "DB_column_name": "flamingo_hotel" 
+		},
+		{
+			"name": "Hacienda_Pinilla.mdb.FULL.dlog1.csv",
+            "DB_column_name": "hacienda_pinilla" 
+		},
+		{
+			"name": "Hospital_Nicoya.mdb.FULL.dlog1.csv",
+            "DB_column_name": "hospital_nicoya" 
+		},
+		{
+			"name": "Ingenio_CATSA.mdb.FULL.dlog1.csv",
+            "DB_column_name": "ingenio_catsa" 
+		},
+		{
+			"name": "MARRIOT.mdb.FULL.dlog1.csv",
+            "DB_column_name": "hotel_marriot" 
+		},
+		{
+			"name": "Melonera_Caimital.mdb.FULL.dlog1.csv",
+            "DB_column_name": "melonera_caimital" 
+		},
+		{
+			"name": "RIU_Hotel.mdb.FULL.dlog1.csv",
+            "DB_column_name": "hotel_riu" 
+		},
+		{
+			"name": "SupercomproCoco.mdb.FULL.dlog1.csv",
+            "DB_column_name": "supercomprococo" 
+		},
+		{
+			"name": "Tamarindo_AutoMercado.mdb.FULL.dlog1.csv",
+            "DB_column_name": "tamarindo_automercado" 
+		},
+		{
+			"name": "Tribunales_Sta_Cruz.mdb.FULL.dlog1.csv",
+            "DB_column_name": "tribunales_sta_cruz" 
+		},
+		{
+			"name": "Westin.mdb.FULL.dlog1.csv",
+            "DB_column_name": "hotel_westin" 
+		}
+	]},
+    
+"Eventos" : {
+	"variables" : [
+		{
+			"name": "DoubleTimeStart",
+            "DB_column_name": "timestamp",
+			"adjust": "1"
+		},
+		{
+			"name": "Event",
+            "DB_column_name": "event",
+			"adjust": "1"
+		},
+		{
+			"name": "Category",
+            "DB_column_name": "category",
+			"adjust": "1"
+		},
+		{
+			"name": "Phase",
+            "DB_column_name": "phase",
+			"adjust": "1"
+		},
+		{
+			"name": "Magnitude",
+            "DB_column_name": "fault_magnitud",
+			"adjust": "1"
+		},
+		{
+			"name": "PU",
+            "DB_column_name": "pu",
+			"adjust": "1"
+		},
+		{
+			"name": "Duration",
+            "DB_column_name": "duration",
+			"adjust": "1"
+		}
+	],
+	"archivos" : [
+		{
+			"name": "Barra_A_Guayabal.mdb.FULL.PQlog.csv",
+            "DB_column_name": "barra_a_guayabal"
+		},
+		{
+			"name": "Barra_B_Guayabal.mdb.FULL.PQlog.csv",
+            "DB_column_name": "barra_b_guayabal"
+		},
+		{
+			"name": "Barra_C_Guayabal.mdb.FULL.PQlog.csv",
+            "DB_column_name": "barra_c_guayabal"
+		},
+		{
+			"name": "BNCR_Jicaral.mdb.FULL.PQlog.csv",
+            "DB_column_name": "bncr_jicaral"
+		},
+		{
+			"name": "Clinica_Filadelfia.mdb.FULL.PQlog.csv",
+            "DB_column_name": "clinica_filadelfia" 
+		},
+		{
+			"name": "Clinica_Hojancha.mdb.FULL.PQlog.csv",
+            "DB_column_name": "clinica_hojancha" 
+		},
+		{
+			"name": "Flamingo_Hotel.mdb.FULL.PQlog.csv",
+            "DB_column_name": "flamingo_hotel" 
+		},
+		{
+			"name": "Hacienda_Pinilla.mdb.FULL.PQlog.csv",
+            "DB_column_name": "hacienda_pinilla" 
+		},
+		{
+			"name": "Ingenio_CATSA.mdb.FULL.PQlog.csv",
+            "DB_column_name": "ingenio_catsa" 
+		},
+		{
+			"name": "MARRIOT.mdb.FULL.PQlog.csv",
+            "DB_column_name": "hotel_marriot" 
+		},
+		{
+			"name": "Melonera_Caimital.mdb.FULL.PQlog.csv",
+            "DB_column_name": "melonera_caimital" 
+		},
+		{
+			"name": "RIU_Hotel.mdb.FULL.PQlog.csv",
+            "DB_column_name": "hotel_riu" 
+		},
+		{
+			"name": "SupercomproCoco.mdb.FULL.PQlog.csv",
+            "DB_column_name": "supercomprococo" 
+		},
+		{
+			"name": "Tamarindo_AutoMercado.mdb.FULL.PQlog.csv",
+            "DB_column_name": "tamarindo_automercado" 
+		},
+		{
+			"name": "Tribunales_Sta_Cruz.mdb.FULL.PQlog.csv",
+            "DB_column_name": "tribunales_sta_cruz" 
+		},
+		{
+			"name": "Westin.mdb.FULL.PQlog.csv",
+            "DB_column_name": "hotel_westin" 
+		},
+		{
+			"name": "BK_Nicoya.mdb.FULL.PQlog.csv",
+            "DB_column_name": "bk_nicoya"
+		},
+		{
+			"name": "Hospital_Nicoya.mdb.FULL.PQlog.csv",
+            "DB_column_name": "hospital_nicoya" 
+		}
+	]}
+
+}
